@@ -16,6 +16,14 @@
 		6878BF202C74487C00EE828F /* KJChineseChessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6878BF1F2C74487C00EE828F /* KJChineseChessTests.swift */; };
 		6878BF2A2C74487C00EE828F /* KJChineseChessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6878BF292C74487C00EE828F /* KJChineseChessUITests.swift */; };
 		6878BF2C2C74487C00EE828F /* KJChineseChessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6878BF2B2C74487C00EE828F /* KJChineseChessUITestsLaunchTests.swift */; };
+		6878BF3A2C744CCF00EE828F /* KJChessBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6878BF392C744CCF00EE828F /* KJChessBoard.swift */; };
+		6878BF3C2C744D0A00EE828F /* KJGameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6878BF3B2C744D0A00EE828F /* KJGameEngine.swift */; };
+		6878BF3E2C744D5200EE828F /* KJMusicEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6878BF3D2C744D5200EE828F /* KJMusicEngine.swift */; };
+		6878BF402C744D8B00EE828F /* KJChessItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6878BF3F2C744D8B00EE828F /* KJChessItem.swift */; };
+		6878BF422C744E0300EE828F /* KJTipButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6878BF412C744E0300EE828F /* KJTipButton.swift */; };
+		6878BF442C744E2900EE828F /* KJUserInfoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6878BF432C744E2900EE828F /* KJUserInfoManager.swift */; };
+		6878BF462C744E4A00EE828F /* KJGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6878BF452C744E4A00EE828F /* KJGameViewController.swift */; };
+		6878BF492C744F5200EE828F /* bgMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6878BF482C744F5200EE828F /* bgMusic.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		6878BF252C74487C00EE828F /* KJChineseChessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KJChineseChessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6878BF292C74487C00EE828F /* KJChineseChessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KJChineseChessUITests.swift; sourceTree = "<group>"; };
 		6878BF2B2C74487C00EE828F /* KJChineseChessUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KJChineseChessUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6878BF392C744CCF00EE828F /* KJChessBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KJChessBoard.swift; sourceTree = "<group>"; };
+		6878BF3B2C744D0A00EE828F /* KJGameEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KJGameEngine.swift; sourceTree = "<group>"; };
+		6878BF3D2C744D5200EE828F /* KJMusicEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KJMusicEngine.swift; sourceTree = "<group>"; };
+		6878BF3F2C744D8B00EE828F /* KJChessItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KJChessItem.swift; sourceTree = "<group>"; };
+		6878BF412C744E0300EE828F /* KJTipButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KJTipButton.swift; sourceTree = "<group>"; };
+		6878BF432C744E2900EE828F /* KJUserInfoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KJUserInfoManager.swift; sourceTree = "<group>"; };
+		6878BF452C744E4A00EE828F /* KJGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KJGameViewController.swift; sourceTree = "<group>"; };
+		6878BF482C744F5200EE828F /* bgMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgMusic.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +115,8 @@
 		6878BF072C74487900EE828F /* KJChineseChess */ = {
 			isa = PBXGroup;
 			children = (
+				6878BF472C744F2C00EE828F /* Resource */,
+				6878BF382C744BC400EE828F /* Class */,
 				6878BF082C74487900EE828F /* AppDelegate.swift */,
 				6878BF0A2C74487900EE828F /* SceneDelegate.swift */,
 				6878BF0C2C74487900EE828F /* ViewController.swift */,
@@ -125,6 +143,28 @@
 				6878BF2B2C74487C00EE828F /* KJChineseChessUITestsLaunchTests.swift */,
 			);
 			path = KJChineseChessUITests;
+			sourceTree = "<group>";
+		};
+		6878BF382C744BC400EE828F /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				6878BF392C744CCF00EE828F /* KJChessBoard.swift */,
+				6878BF3B2C744D0A00EE828F /* KJGameEngine.swift */,
+				6878BF3D2C744D5200EE828F /* KJMusicEngine.swift */,
+				6878BF3F2C744D8B00EE828F /* KJChessItem.swift */,
+				6878BF412C744E0300EE828F /* KJTipButton.swift */,
+				6878BF432C744E2900EE828F /* KJUserInfoManager.swift */,
+				6878BF452C744E4A00EE828F /* KJGameViewController.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		6878BF472C744F2C00EE828F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6878BF482C744F5200EE828F /* bgMusic.mp3 */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +274,7 @@
 				6878BF152C74487B00EE828F /* LaunchScreen.storyboard in Resources */,
 				6878BF122C74487B00EE828F /* Assets.xcassets in Resources */,
 				6878BF102C74487900EE828F /* Main.storyboard in Resources */,
+				6878BF492C744F5200EE828F /* bgMusic.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +299,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6878BF3A2C744CCF00EE828F /* KJChessBoard.swift in Sources */,
 				6878BF0D2C74487900EE828F /* ViewController.swift in Sources */,
+				6878BF422C744E0300EE828F /* KJTipButton.swift in Sources */,
+				6878BF462C744E4A00EE828F /* KJGameViewController.swift in Sources */,
+				6878BF3E2C744D5200EE828F /* KJMusicEngine.swift in Sources */,
+				6878BF3C2C744D0A00EE828F /* KJGameEngine.swift in Sources */,
+				6878BF402C744D8B00EE828F /* KJChessItem.swift in Sources */,
+				6878BF442C744E2900EE828F /* KJUserInfoManager.swift in Sources */,
 				6878BF092C74487900EE828F /* AppDelegate.swift in Sources */,
 				6878BF0B2C74487900EE828F /* SceneDelegate.swift in Sources */,
 			);
